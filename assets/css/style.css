@@ -1,4 +1,22 @@
+@font-face {
+
+    font-family: Mifuente;
+    src: url(../Fonts/BreeSerif-Regular.ttf);
+  
+  
+  }
+  
+  
+  * {
+  
+    font-family: Mifuente;
+  
+  }
+  
+
 body {
+
+    
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -16,12 +34,21 @@ body {
     min-height: 100vh;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    font-family: 'Helvetica';
+        font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body{
+
+background-color: rgb(255, 255, 255);
+
 }
 
 .payment-title {
     width: 100%;
     text-align: center;
+    letter-spacing: 1px;
+    color: #d4e157;
+    font-size: 25px;
 }
 
 .field-container input {
